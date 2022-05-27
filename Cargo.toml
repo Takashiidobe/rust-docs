@@ -1,0 +1,1079 @@
+[package]
+name = "rust-docs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.addr2line]
+package = "addr2line"
+version = "*"
+
+[dependencies.adler]
+package = "adler"
+version = "*"
+
+[dependencies.adler32]
+package = "adler32"
+version = "*"
+
+[dependencies.ahash]
+package = "ahash"
+version = "*"
+
+[dependencies.aho_corasick]
+package = "aho-corasick"
+version = "*"
+
+[dependencies.ansi_term]
+package = "ansi_term"
+version = "*"
+
+[dependencies.anyhow]
+package = "anyhow"
+version = "*"
+
+[dependencies.approx]
+package = "approx"
+version = "*"
+
+[dependencies.arc_swap]
+package = "arc-swap"
+version = "*"
+
+[dependencies.arrayvec]
+package = "arrayvec"
+version = "*"
+
+[dependencies.async_recursion]
+package = "async-recursion"
+version = "*"
+
+[dependencies.async_trait]
+package = "async-trait"
+version = "*"
+
+[dependencies.atty]
+package = "atty"
+version = "*"
+
+[dependencies.autocfg]
+package = "autocfg"
+version = "*"
+
+[dependencies.backtrace]
+package = "backtrace"
+version = "*"
+
+[dependencies.base64]
+package = "base64"
+version = "*"
+
+[dependencies.bit_field]
+package = "bit_field"
+version = "*"
+
+[dependencies.bit_set]
+package = "bit-set"
+version = "*"
+
+[dependencies.bit_vec]
+package = "bit-vec"
+version = "*"
+
+[dependencies.bitflags]
+package = "bitflags"
+version = "*"
+
+[dependencies.block_buffer]
+package = "block-buffer"
+version = "*"
+
+[dependencies.bstr]
+package = "bstr"
+version = "*"
+
+[dependencies.bytemuck]
+package = "bytemuck"
+version = "*"
+features = ["derive", "extern_crate_alloc", "extern_crate_std", "min_const_generics", "wasm_simd", "zeroable_maybe_uninit"]
+
+[dependencies.byteorder]
+package = "byteorder"
+version = "*"
+
+[dependencies.bytes]
+package = "bytes"
+version = "*"
+
+[dependencies.cc]
+package = "cc"
+version = "*"
+
+[dependencies.cfg_if]
+package = "cfg-if"
+version = "*"
+
+[dependencies.chrono]
+package = "chrono"
+version = "*"
+features = ["serde"]
+
+[dependencies.clap]
+package = "clap"
+version = "*"
+features = ["unstable-doc"]
+
+[dependencies.clap_lex]
+package = "clap_lex"
+version = "*"
+
+[dependencies.color_quant]
+package = "color_quant"
+version = "*"
+
+[dependencies.cpufeatures]
+package = "cpufeatures"
+version = "*"
+
+[dependencies.crc32fast]
+package = "crc32fast"
+version = "*"
+
+[dependencies.crossbeam]
+package = "crossbeam"
+version = "*"
+
+[dependencies.crossbeam_channel]
+package = "crossbeam-channel"
+version = "*"
+
+[dependencies.crossbeam_deque]
+package = "crossbeam-deque"
+version = "*"
+
+[dependencies.crossbeam_epoch]
+package = "crossbeam-epoch"
+version = "*"
+
+[dependencies.crossbeam_queue]
+package = "crossbeam-queue"
+version = "*"
+
+[dependencies.crossbeam_utils]
+package = "crossbeam-utils"
+version = "*"
+
+[dependencies.crypto_common]
+package = "crypto-common"
+version = "*"
+
+[dependencies.csv]
+package = "csv"
+version = "*"
+
+[dependencies.csv_core]
+package = "csv-core"
+version = "*"
+
+[dependencies.data_encoding]
+package = "data-encoding"
+version = "*"
+
+[dependencies.debug_unreachable]
+package = "new_debug_unreachable"
+version = "*"
+
+[dependencies.deflate]
+package = "deflate"
+version = "*"
+
+[dependencies.derivative]
+package = "derivative"
+version = "*"
+
+[dependencies.digest]
+package = "digest"
+version = "*"
+
+[dependencies.either]
+package = "either"
+version = "*"
+
+[dependencies.encoding_rs]
+package = "encoding_rs"
+version = "*"
+
+[dependencies.env_logger]
+package = "env_logger"
+version = "*"
+
+[dependencies.error_chain]
+package = "error-chain"
+version = "*"
+
+[dependencies.exr]
+package = "exr"
+version = "*"
+
+[dependencies.fallible_iterator]
+package = "fallible-iterator"
+version = "*"
+
+[dependencies.fallible_streaming_iterator]
+package = "fallible-streaming-iterator"
+version = "*"
+
+[dependencies.fastrand]
+package = "fastrand"
+version = "*"
+
+[dependencies.filetime]
+package = "filetime"
+version = "*"
+
+[dependencies.fixedbitset]
+package = "fixedbitset"
+version = "*"
+
+[dependencies.flate2]
+package = "flate2"
+version = "*"
+
+[dependencies.flume]
+package = "flume"
+version = "*"
+
+[dependencies.fnv]
+package = "fnv"
+version = "*"
+
+[dependencies.foreign_types]
+package = "foreign-types"
+version = "*"
+
+[dependencies.foreign_types_shared]
+package = "foreign-types-shared"
+version = "*"
+
+[dependencies.form_urlencoded]
+package = "form_urlencoded"
+version = "*"
+
+[dependencies.futf]
+package = "futf"
+version = "*"
+
+[dependencies.futures]
+package = "futures"
+version = "*"
+features = ["compat", "io-compat", "thread-pool"]
+
+[dependencies.futures_channel]
+package = "futures-channel"
+version = "*"
+
+[dependencies.futures_core]
+package = "futures-core"
+version = "*"
+
+[dependencies.futures_executor]
+package = "futures-executor"
+version = "*"
+
+[dependencies.futures_io]
+package = "futures-io"
+version = "*"
+
+[dependencies.futures_macro]
+package = "futures-macro"
+version = "*"
+
+[dependencies.futures_sink]
+package = "futures-sink"
+version = "*"
+
+[dependencies.futures_task]
+package = "futures-task"
+version = "*"
+
+[dependencies.futures_util]
+package = "futures-util"
+version = "*"
+
+[dependencies.generic_array]
+package = "generic-array"
+version = "*"
+
+[dependencies.getrandom]
+package = "getrandom"
+version = "*"
+
+[dependencies.gif]
+package = "gif"
+version = "*"
+
+[dependencies.gimli]
+package = "gimli"
+version = "*"
+
+[dependencies.glob]
+package = "glob"
+version = "*"
+
+[dependencies.h2]
+package = "h2"
+version = "*"
+
+[dependencies.half]
+package = "half"
+version = "*"
+
+[dependencies.hashbrown]
+package = "hashbrown"
+version = "*"
+
+[dependencies.hashlink]
+package = "hashlink"
+version = "*"
+
+[dependencies.heck]
+package = "heck"
+version = "*"
+
+[dependencies.hmac]
+package = "hmac"
+version = "*"
+
+[dependencies.html5ever]
+package = "html5ever"
+version = "*"
+
+[dependencies.http]
+package = "http"
+version = "*"
+
+[dependencies.http_body]
+package = "http-body"
+version = "*"
+
+[dependencies.httparse]
+package = "httparse"
+version = "*"
+
+[dependencies.httpdate]
+package = "httpdate"
+version = "*"
+
+[dependencies.humantime]
+package = "humantime"
+version = "*"
+
+[dependencies.hyper]
+package = "hyper"
+version = "*"
+features = ["full"]
+
+[dependencies.hyper_tls]
+package = "hyper-tls"
+version = "*"
+
+[dependencies.idna]
+package = "idna"
+version = "*"
+
+[dependencies.image]
+package = "image"
+version = "*"
+
+[dependencies.indexmap]
+package = "indexmap"
+version = "*"
+
+[dependencies.inflate]
+package = "inflate"
+version = "*"
+
+[dependencies.ipnet]
+package = "ipnet"
+version = "*"
+
+[dependencies.itertools]
+package = "itertools"
+version = "*"
+
+[dependencies.itoa]
+package = "itoa"
+version = "*"
+
+[dependencies.jpeg_decoder]
+package = "jpeg-decoder"
+version = "*"
+
+[dependencies.lazy_static]
+package = "lazy_static"
+version = "*"
+
+[dependencies.lebe]
+package = "lebe"
+version = "*"
+
+[dependencies.libc]
+package = "libc"
+version = "*"
+
+[dependencies.libm]
+package = "libm"
+version = "*"
+
+[dependencies.libsqlite3_sys]
+package = "libsqlite3-sys"
+version = "*"
+
+[dependencies.linked_hash_map]
+package = "linked-hash-map"
+version = "*"
+
+[dependencies.lock_api]
+package = "lock_api"
+version = "*"
+
+[dependencies.log]
+package = "log"
+version = "*"
+
+[dependencies.log4rs]
+package = "log4rs"
+version = "*"
+
+[dependencies.log_mdc]
+package = "log-mdc"
+version = "*"
+
+[dependencies.mac]
+package = "mac"
+version = "*"
+
+[dependencies.markup5ever]
+package = "markup5ever"
+version = "*"
+
+[dependencies.markup5ever_rcdom]
+package = "markup5ever_rcdom"
+version = "*"
+
+[dependencies.matches]
+package = "matches"
+version = "*"
+
+[dependencies.matrixmultiply]
+package = "matrixmultiply"
+version = "*"
+
+[dependencies.md5]
+package = "md-5"
+version = "*"
+
+[dependencies.memchr]
+package = "memchr"
+version = "*"
+
+[dependencies.memmap]
+package = "memmap"
+version = "*"
+
+[dependencies.memoffset]
+package = "memoffset"
+version = "*"
+
+[dependencies.mime]
+package = "mime"
+version = "*"
+
+[dependencies.miniz_oxide]
+package = "miniz_oxide"
+version = "*"
+
+[dependencies.mio]
+package = "mio"
+version = "*"
+features = ["net", "os-ext", "os-poll"]
+
+[dependencies.nalgebra]
+package = "nalgebra"
+version = "*"
+
+[dependencies.nalgebra_macros]
+package = "nalgebra-macros"
+version = "*"
+
+[dependencies.nanorand]
+package = "nanorand"
+version = "*"
+
+[dependencies.native_tls]
+package = "native-tls"
+version = "*"
+
+[dependencies.ndarray]
+package = "ndarray"
+version = "*"
+
+[dependencies.num]
+package = "num"
+version = "*"
+
+[dependencies.num_bigint]
+package = "num-bigint"
+version = "*"
+
+[dependencies.num_complex]
+package = "num-complex"
+version = "*"
+
+[dependencies.num_cpus]
+package = "num_cpus"
+version = "*"
+
+[dependencies.num_integer]
+package = "num-integer"
+version = "*"
+
+[dependencies.num_iter]
+package = "num-iter"
+version = "*"
+
+[dependencies.num_rational]
+package = "num-rational"
+version = "*"
+
+[dependencies.num_threads]
+package = "num_threads"
+version = "*"
+
+[dependencies.num_traits]
+package = "num-traits"
+version = "*"
+
+[dependencies.object]
+package = "object"
+version = "*"
+
+[dependencies.once_cell]
+package = "once_cell"
+version = "*"
+
+[dependencies.opaque_debug]
+package = "opaque-debug"
+version = "*"
+
+[dependencies.openssl]
+package = "openssl"
+version = "*"
+
+[dependencies.openssl_macros]
+package = "openssl-macros"
+version = "*"
+
+[dependencies.openssl_probe]
+package = "openssl-probe"
+version = "*"
+
+[dependencies.openssl_sys]
+package = "openssl-sys"
+version = "*"
+
+[dependencies.ordered_float]
+package = "ordered-float"
+version = "*"
+
+[dependencies.os_str_bytes]
+package = "os_str_bytes"
+version = "*"
+
+[dependencies.parking_lot]
+package = "parking_lot"
+version = "*"
+
+[dependencies.parking_lot_core]
+package = "parking_lot_core"
+version = "*"
+
+[dependencies.paste]
+package = "paste"
+version = "*"
+
+[dependencies.percent_encoding]
+package = "percent-encoding"
+version = "*"
+
+[dependencies.pest]
+package = "pest"
+version = "*"
+
+[dependencies.petgraph]
+package = "petgraph"
+version = "*"
+
+[dependencies.phf]
+package = "phf"
+version = "*"
+
+[dependencies.phf_codegen]
+package = "phf_codegen"
+version = "*"
+
+[dependencies.phf_generator]
+package = "phf_generator"
+version = "*"
+
+[dependencies.phf_shared]
+package = "phf_shared"
+version = "*"
+
+[dependencies.pin_project]
+package = "pin-project"
+version = "*"
+
+[dependencies.pin_project_internal]
+package = "pin-project-internal"
+version = "*"
+
+[dependencies.pin_project_lite]
+package = "pin-project-lite"
+version = "*"
+
+[dependencies.pin_utils]
+package = "pin-utils"
+version = "*"
+
+[dependencies.pkg_config]
+package = "pkg-config"
+version = "*"
+
+[dependencies.png]
+package = "png"
+version = "*"
+
+[dependencies.postgres]
+package = "postgres"
+version = "*"
+
+[dependencies.postgres_protocol]
+package = "postgres-protocol"
+version = "*"
+
+[dependencies.postgres_types]
+package = "postgres-types"
+version = "*"
+
+[dependencies.ppv_lite86]
+package = "ppv-lite86"
+version = "*"
+
+[dependencies.precomputed_hash]
+package = "precomputed-hash"
+version = "*"
+
+[dependencies.proc_macro2]
+package = "proc-macro2"
+version = "*"
+features = ["span-locations"]
+
+[dependencies.proc_macro_hack]
+package = "proc-macro-hack"
+version = "*"
+
+[dependencies.quote]
+package = "quote"
+version = "*"
+
+[dependencies.rand]
+package = "rand"
+version = "*"
+features = ["serde1", "small_rng"]
+
+[dependencies.rand_chacha]
+package = "rand_chacha"
+version = "*"
+
+[dependencies.rand_core]
+package = "rand_core"
+version = "*"
+features = ["alloc", "getrandom", "serde", "serde1", "std"]
+
+[dependencies.rand_distr]
+package = "rand_distr"
+version = "*"
+
+[dependencies.rand_pcg]
+package = "rand_pcg"
+version = "*"
+
+[dependencies.rawpointer]
+package = "rawpointer"
+version = "*"
+
+[dependencies.rayon]
+package = "rayon"
+version = "*"
+
+[dependencies.rayon_core]
+package = "rayon-core"
+version = "*"
+
+[dependencies.regex]
+package = "regex"
+version = "*"
+
+[dependencies.regex_automata]
+package = "regex-automata"
+version = "*"
+
+[dependencies.regex_syntax]
+package = "regex-syntax"
+version = "*"
+
+[dependencies.remove_dir_all]
+package = "remove_dir_all"
+version = "*"
+
+[dependencies.reqwest]
+package = "reqwest"
+version = "*"
+features = ["blocking", "cookies", "json", "multipart"]
+
+[dependencies.ring]
+package = "ring"
+version = "*"
+
+[dependencies.rusqlite]
+package = "rusqlite"
+version = "*"
+features = ["bundled-full"]
+
+[dependencies.rustc_demangle]
+package = "rustc-demangle"
+version = "*"
+
+[dependencies.rustc_version]
+package = "rustc_version"
+version = "*"
+
+[dependencies.ryu]
+package = "ryu"
+version = "*"
+
+[dependencies.safe_arch]
+package = "safe_arch"
+version = "*"
+
+[dependencies.same_file]
+package = "same-file"
+version = "*"
+
+[dependencies.scoped_threadpool]
+package = "scoped_threadpool"
+version = "*"
+
+[dependencies.scopeguard]
+package = "scopeguard"
+version = "*"
+
+[dependencies.select]
+package = "select"
+version = "*"
+
+[dependencies.semver]
+package = "semver"
+version = "*"
+
+[dependencies.semver_parser]
+package = "semver-parser"
+version = "*"
+
+[dependencies.serde]
+package = "serde"
+version = "*"
+features = ["derive", "rc"]
+
+[dependencies.serde_derive]
+package = "serde_derive"
+version = "*"
+
+[dependencies.serde_json]
+package = "serde_json"
+version = "*"
+features = ["raw_value"]
+
+[dependencies.serde_urlencoded]
+package = "serde_urlencoded"
+version = "*"
+
+[dependencies.serde_value]
+package = "serde-value"
+version = "*"
+
+[dependencies.serde_yaml]
+package = "serde_yaml"
+version = "*"
+
+[dependencies.sha2]
+package = "sha2"
+version = "*"
+
+[dependencies.simba]
+package = "simba"
+version = "*"
+
+[dependencies.siphasher]
+package = "siphasher"
+version = "*"
+
+[dependencies.slab]
+package = "slab"
+version = "*"
+
+[dependencies.smallvec]
+package = "smallvec"
+version = "*"
+
+[dependencies.smawk]
+package = "smawk"
+version = "*"
+
+[dependencies.socket2]
+package = "socket2"
+version = "*"
+features = ["all"]
+
+[dependencies.spin]
+package = "spin"
+version = "*"
+
+[dependencies.string_cache]
+package = "string_cache"
+version = "*"
+
+[dependencies.string_cache_codegen]
+package = "string_cache_codegen"
+version = "*"
+
+[dependencies.stringprep]
+package = "stringprep"
+version = "*"
+
+[dependencies.strsim]
+package = "strsim"
+version = "*"
+
+[dependencies.subtle]
+package = "subtle"
+version = "*"
+
+[dependencies.syn]
+package = "syn"
+version = "*"
+features = ["extra-traits", "fold", "full", "visit", "visit-mut"]
+
+[dependencies.tar]
+package = "tar"
+version = "*"
+
+[dependencies.tempfile]
+package = "tempfile"
+version = "*"
+
+[dependencies.tendril]
+package = "tendril"
+version = "*"
+
+[dependencies.termcolor]
+package = "termcolor"
+version = "*"
+
+[dependencies.textwrap]
+package = "textwrap"
+version = "*"
+
+[dependencies.thiserror]
+package = "thiserror"
+version = "*"
+
+[dependencies.thiserror_impl]
+package = "thiserror-impl"
+version = "*"
+
+[dependencies.thread_id]
+package = "thread-id"
+version = "*"
+
+[dependencies.thread_local]
+package = "thread_local"
+version = "*"
+
+[dependencies.threadpool]
+package = "threadpool"
+version = "*"
+
+[dependencies.tiff]
+package = "tiff"
+version = "*"
+
+[dependencies.time]
+package = "time"
+version = "*"
+
+[dependencies.tinyvec]
+package = "tinyvec"
+version = "*"
+features = ["alloc", "grab_spare_slice", "rustc_1_40", "rustc_1_55", "serde", "std"]
+
+[dependencies.tinyvec_macros]
+package = "tinyvec_macros"
+version = "*"
+
+[dependencies.tokio]
+package = "tokio"
+version = "*"
+features = ["full", "test-util"]
+
+[dependencies.tokio_native_tls]
+package = "tokio-native-tls"
+version = "*"
+
+[dependencies.tokio_postgres]
+package = "tokio-postgres"
+version = "*"
+
+[dependencies.tokio_util]
+package = "tokio-util"
+version = "*"
+
+[dependencies.toml]
+package = "toml"
+version = "*"
+
+[dependencies.tower_service]
+package = "tower-service"
+version = "*"
+
+[dependencies.tracing]
+package = "tracing"
+version = "*"
+
+[dependencies.tracing_attributes]
+package = "tracing-attributes"
+version = "*"
+
+[dependencies.tracing_core]
+package = "tracing-core"
+version = "*"
+
+[dependencies.traitobject]
+package = "traitobject"
+version = "*"
+
+[dependencies.try_lock]
+package = "try-lock"
+version = "*"
+
+[dependencies.typemap]
+package = "typemap"
+version = "*"
+
+[dependencies.typenum]
+package = "typenum"
+version = "*"
+
+[dependencies.ucd_trie]
+package = "ucd-trie"
+version = "*"
+
+[dependencies.unicode_bidi]
+package = "unicode-bidi"
+version = "*"
+
+[dependencies.unicode_ident]
+package = "unicode-ident"
+version = "*"
+
+[dependencies.unicode_linebreak]
+package = "unicode-linebreak"
+version = "*"
+
+[dependencies.unicode_normalization]
+package = "unicode-normalization"
+version = "*"
+
+[dependencies.unicode_segmentation]
+package = "unicode-segmentation"
+version = "*"
+
+[dependencies.unicode_width]
+package = "unicode-width"
+version = "*"
+
+[dependencies.unicode_xid]
+package = "unicode-xid"
+version = "*"
+
+[dependencies.unsafe_any]
+package = "unsafe-any"
+version = "*"
+
+[dependencies.untrusted]
+package = "untrusted"
+version = "*"
+
+[dependencies.url]
+package = "url"
+version = "*"
+
+[dependencies.utf8]
+package = "utf-8"
+version = "*"
+
+[dependencies.vcpkg]
+package = "vcpkg"
+version = "*"
+
+[dependencies.vec_map]
+package = "vec_map"
+version = "*"
+
+[dependencies.version_check]
+package = "version_check"
+version = "*"
+
+[dependencies.walkdir]
+package = "walkdir"
+version = "*"
+
+[dependencies.want]
+package = "want"
+version = "*"
+
+[dependencies.weezl]
+package = "weezl"
+version = "*"
+
+[dependencies.wide]
+package = "wide"
+version = "*"
+
+[dependencies.winapi]
+package = "winapi"
+version = "*"
+
+[dependencies.xattr]
+package = "xattr"
+version = "*"
+
+[dependencies.xml5ever]
+package = "xml5ever"
+version = "*"
+
+[dependencies.yaml_rust]
+package = "yaml-rust"
+version = "*"
